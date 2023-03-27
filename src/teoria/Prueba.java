@@ -8,7 +8,12 @@ public class Prueba {
         int unidades= 10;
         float precio=9.95f;
         float total=unidades*precio;
-        System.out.println("el total de la compra es "+total);
+        boolean descuento = false;
+        if (descuento){
+            total = total*0.85f;
+        }
+        System.out.println("Si hay descuento, el total de la compra es " + total + "€");
+
     }//cierra main
 
 }//cierra clase
