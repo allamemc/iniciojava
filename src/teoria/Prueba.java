@@ -14,6 +14,8 @@ public class Prueba {
         }
         System.out.println("Si hay descuento, el total de la compra es " + total + "€");
 
+        var radio = 5;
+        System.out.println("El área es: "+2*Math.PI*Math.pow(radio, 2));
     }//cierra main
 
 }//cierra clase
